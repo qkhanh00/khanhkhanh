@@ -50,12 +50,12 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: " bạn đang chạy config 45s ",
+            title: " chào mừng bạn đến với locket premium ",
             feature_set: [
                 {
                     title: "✨✨✨✨✨",
-                    body: "💛💛💛💛💛💛💛💛💛💛",
-                    imageURL: "https://i.ibb.co/xkJMqKn/photo-2026-10-16-15-31-19.png"
+                    body: "😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫",
+                    imageURL: "https://ibb.co/LDz6JZTr"
                 
                 }
             ],
