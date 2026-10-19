@@ -50,7 +50,7 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: " Locket premium 60s ",
+            title: " Locket premium 45s ",
             feature_set: [
                 {
                     title: "✨✨✨✨✨",
@@ -96,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 60.0;
+    var MY_VIDEO_DURATION = 45.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
