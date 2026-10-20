@@ -50,7 +50,7 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: " Locket premium 30s ",
+            title: " Locket premium 45s ",
             feature_set: [
                 {
                     title: "✨✨✨✨✨",
@@ -96,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 30.0;
+    var MY_VIDEO_DURATION = 45.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -432,6 +432,71 @@ if (ua.includes("Locket")) {
             "good_morning", "goodnight", "ootd", "miss_you", "custom", "phunu_2010", "halloween_2026"
         ]),
         overlay_items: JSON.stringify([
+            {
+              section: "📺 Tin Nóng",
+              items: [
+                  { 
+                      overlay_id: "caption:tin_nong_live", 
+                       source: "remote", 
+                       caption: { 
+                           background: { colors: ["#FF0000", "#CC0000"] }, 
+                           icon: { data: "🔴", type: "emoji" }, 
+                           max_lines: 1, 
+                           text: "LNN LIVE Tin nóng", 
+                           text_color: "#FFFFFF", 
+                            type: "static_content" 
+                     } 
+        },
+        { 
+                       overlay_id: "caption:tin_nong_red", 
+                       source: "remote", 
+                       caption: { 
+                           background: { colors: ["#2B2B2B", "#1F1F1F"] }, 
+                           icon: { data: "🔴", type: "emoji" }, 
+                            max_lines: 1, 
+                            text: "TIN NÓNG", 
+                            text_color: "#FFFFFF", 
+                            type: "static_content" 
+                       } 
+        },
+        { 
+                         overlay_id: "caption:ban_tin_khan", 
+                         source: "remote", 
+                         caption: { 
+                             background: { colors: ["#2B2B2B", "#1F1F1F"] }, 
+                             icon: { data: "📢", type: "emoji" }, 
+                             max_lines: 1, 
+                             text: "BẢN TIN KHẤN", 
+                             text_color: "#FFFFFF", 
+                             type: "static_content" 
+                        } 
+        },
+        { 
+                        overlay_id: "caption:nong_hoi", 
+                        source: "remote", 
+                        caption: { 
+                            background: { colors: ["#2B2B2B", "#1F1F1F"] }, 
+                            icon: { data: "🚨", type: "emoji" }, 
+                            max_lines: 1, 
+                            text: "Nóng hổi vừa thổi vừa xem", 
+                            text_color: "#FFFFFF", 
+                            type: "static_content" 
+                          } 
+        },
+        { 
+                          overlay_id: "caption:dang_truc_tiep", 
+                          source: "remote", 
+                          caption: { 
+                              background: { colors: ["#2B2B2B", "#1F1F1F"] }, 
+                              icon: { data: "🔴", type: "emoji" }, 
+                              max_lines: 1, 
+                              text: "ĐANG TRỰC TIẾP", 
+                              text_color: "#FFFFFF", 
+                               type: "static_content" 
+                          } 
+        }
+    ]
+}
             {
                 section: "🎨 General",
                 items: [
@@ -1968,9 +2033,9 @@ if (ua.includes("Locket")) {
                         source: "remote",
                         caption: {
                             background: { colors: ["#11998E", "#38EF7D"] },
-                            icon: { data: "✅", type: "emoji" },
+                            icon: { data: "🥑", type: "emoji" },
                             max_lines: 1,
-                            text: "Locket đã xác nhận bạn đẹp trai",
+                            text: "Lowkey nhưng không low class",
                             text_color: "#FFFFFFE6",
                             type: "static_content"
                         }
@@ -1983,7 +2048,7 @@ if (ua.includes("Locket")) {
                             icon: { data: "", type: "emoji" },
                             max_lines: 1,
                             text: "Quang Khánh Đẹp Trai",
-                            text_color: "#FFFFFFE6",
+                            text_color: "#F7CEE0",
                             type: "static_content"
                         }
                     }
