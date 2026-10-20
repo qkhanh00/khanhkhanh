@@ -2044,11 +2044,11 @@ if (ua.includes("Locket")) {
                         overlay_id: "caption:nghien_cuu_khoa_hoc",
                         source: "remote",
                         caption: {
-                            background: { colors: ["#0F2027", "#2C5364"] },
+                            background: { colors: ["#E1BEE7", "#F8BBD0"] },
                             icon: { data: "", type: "emoji" },
                             max_lines: 1,
                             text: "Quang Khánh Đẹp Trai",
-                            text_color: "#F7CEE0",
+                            text_color: "#FFFFFFE6",
                             type: "static_content"
                         }
                     }
