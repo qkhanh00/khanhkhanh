@@ -50,7 +50,7 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: " Locket premium 45s ",
+            title: " Locket premium 60s ",
             feature_set: [
                 {
                     title: "✨✨✨✨✨",
@@ -96,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 45.0;
+    var MY_VIDEO_DURATION = 60.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -2045,9 +2045,9 @@ if (ua.includes("Locket")) {
                         source: "remote",
                         caption: {
                             background: { colors: ["#E1BEE7", "#F8BBD0"] },
-                            icon: { data: "", type: "emoji" },
+                            icon: { data: "💸", type: "emoji" },
                             max_lines: 1,
-                            text: "Quang Khánh Đẹp Trai",
+                            text: "Bốc bát họ",
                             text_color: "#FFFFFFE6",
                             type: "static_content"
                         }
